@@ -1,0 +1,38 @@
+{
+    "name": "lumphp/laravel-encryption",
+    "description": "The Illuminate Encryption package.",
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/lumphp/laravel-encryption/issues",
+        "source": "https://github.com/lumphp/laravel-encryption"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "lumphp/laravel-contracts": "^7.0",
+        "lumphp/laravel-support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Encryption\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
