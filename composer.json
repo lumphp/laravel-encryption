@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Encryption\\": ""
+            "Illuminate\\Encryption\\": "src/"
         }
     },
     "extra": {
